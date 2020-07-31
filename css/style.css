@@ -1,0 +1,433 @@
+*{
+	margin: 0px;
+	padding:0px;
+    box-sizing:border-box;
+    position: relative;
+}
+
+html
+{
+	scroll-behavior: smooth;
+}
+
+
+.banner{
+	position: relative;
+	width: 100%;
+	height:100vh;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	box-sizing: border-box;
+
+}
+
+.banner img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	height:100%;
+	object-fit: cover;
+	opacity: 0.40;
+}
+
+
+.banner .content{
+	position: relative;
+	max-width: 750px;
+	text-align: center;
+}
+
+.banner .content h2{
+	color: #000;
+	font-size: 60px;
+	font-family: 'Merienda One', cursive;
+}
+
+.banner .content p{
+	color: #000;
+	font-size: 24px;
+	font-family:  'Courgette', cursive;
+	font-weight: 700;
+}
+
+.banner header{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding: 40px 100px ;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	z-index: 1000;
+
+
+}
+
+
+.banner header .logo{
+	color: #000;
+	text-decoration: none;
+	font-size: 24px;
+	text-transform: uppercase;
+	font-weight: 700;
+	letter-spacing: 1px;
+
+}
+
+
+
+.situation{
+
+	position: relative;
+	width: 100%;
+	display: flex;
+	background-color:  #162c3b;
+
+}
+
+
+.situation .content2{
+
+	background: #162c3b;
+	padding:100px;
+	width: 50%;
+	font-family: 'Gentium Basic', serif;
+}
+
+.heading{
+
+	color: #fff;
+	font-size: 30px;
+	font-weight: 700;
+	letter-spacing: 1px;
+	margin-bottom: 10px;
+	font-family: 'Merienda One', cursive;
+}
+
+
+.text{
+
+
+	color: #fff;
+	font-size: 18px;
+	letter-spacing: 1px;
+
+}
+
+.situation .img2{
+
+	background: url(flood2.jpg);
+	width: 50%;
+	background-size: cover;
+	background-position: center;
+
+}
+
+
+
+.aftermath{
+
+	position: relative;
+	width: 100%;
+	display: flex;
+	background-color: #392102; 
+
+}
+
+
+.aftermath .content3{
+
+	background: #392102;
+	padding:100px;
+	width: 50%;
+	font-family: 'Gentium Basic', serif;
+}
+
+.heading2{
+
+	color: #fff;
+	font-size: 30px;
+	font-weight: 700;
+	letter-spacing: 1px;
+	margin-bottom: 10px;
+	font-family: 'Merienda One', cursive;
+}
+
+
+.text2{
+
+
+	color: #fff;
+	font-size: 18px;
+	letter-spacing: 1px;
+
+}
+
+.aftermath .img3{
+
+	background: url(aftermath.jpg);
+	width: 50%;
+	background-size: cover;
+	background-position: center;
+
+}
+
+
+
+.donations{
+
+	background-color: #390214;
+	padding: 100px;
+	text-align: center;
+}
+
+.heading3{font-family: 'Merienda One', cursive;
+
+
+}
+
+.donations .container
+{
+
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	margin-top: 60px;
+}
+.donations .container .donate{
+
+
+	position: relative;
+	background: #fff;
+	width: 250px;
+	height: 250px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.donations .container .donate h2
+{
+	font-weight: 500;
+	font-size: 20px;
+	letter-spacing: 1px;
+	font-family: 'Merienda One', cursive;
+
+
+
+}
+.heading3{
+	color: #fff;
+	font-size: 50px;
+}
+.txt
+{
+	font-size: 20px;
+	color: #fff;
+	font-weight: 400;
+	font-family: 'Gentium Basic', serif;
+}
+.end{
+	position: relative;
+	width: 100%;
+	display: flex;
+	height: 30vh;
+	background-color: #3B1A5B;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.text3{
+
+
+	color: #fff;
+	font-size: 16px;
+	letter-spacing: 1px;
+	text-align: center;
+	font-weight: 700;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	font-size: 30px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#header-nav{
+	background-color: #3B1A5B;
+	margin-bottom: 0px;
+}
+
+section{
+	margin-top:0px;
+}
+.navbar-brand {
+  padding-top: 50px;
+  font-family: 'Risque', cursive;
+}
+.navbar-brand h1 {
+  color: #fff;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 20;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+
+#nav-list {
+  margin-top: 0px;
+  font-family: 'Merienda One', cursive;
+}
+#nav-list a {
+  color: #BFBDBA;
+  text-align: center;
+  font-weight: 700;
+  font-size: 20px;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #fff;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: 0px;
+}
+
+.text3
+{
+	font-family: 'Gentium Basic', serif;
+}
+
+
+
+@media (max-width: 991px)
+{
+
+	.banner
+	{
+		padding: 50px;
+	}
+	.banner header
+	{
+		padding:20px 50px;
+	}
+
+	.banner .content h2
+	{
+		font-size: 36px;
+
+	}
+     .banner .content p{
+     	
+     	font-size: 16px;
+     }
+     .situation
+     {
+     	flex-direction: column;
+     }
+     .situation .content2
+     ,.situation .img2
+     {
+     	width: 100%;
+     	padding: 50px;
+     	min-height: 400px;
+     	text-align: center;
+
+     }
+     .aftermath
+     {
+     	flex-direction: column;
+     }
+     .aftermath .content3
+     ,.aftermath .img3
+     {
+     	width: 100%;
+     	padding: 50px;
+     	min-height: 400px;
+     	text-align: center;
+
+     }
+
+     .donations{
+     	padding: 50px;
+     	
+
+     }
+     .donations .container
+     {
+
+     	justify-content: center;
+     	margin-top: 40px;
+
+     }
+     .donations .container .donate{
+     	padding-right: 50px;
+     	margin-top: 20px;
+     }
+     
+     .end{
+     	padding: 20px 50px;
+     	flex-direction: column-reverse;
+     	text-align: center;
+     	
+     }
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
