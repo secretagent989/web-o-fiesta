@@ -424,6 +424,115 @@ section{
 }
 
 
+@media (max-width: 768px)
+{.banner
+	{
+		padding: 50px;
+	}
+	.banner header
+	{
+		padding:20px 50px;
+	}
+
+	.banner .content h2
+	{
+		font-size: 36px;
+
+	}
+     .banner .content p{
+     	
+     	font-size: 16px;
+     }
+     .situation
+     {
+     	flex-direction: column;
+     }
+     .situation .content2
+     ,.situation .img2
+     {
+     	width: 100%;
+     	padding: 50px;
+     	min-height: 400px;
+     	text-align: center;
+
+     }
+     .aftermath
+     {
+     	flex-direction: column;
+     }
+     .aftermath .content3
+     ,.aftermath .img3
+     {
+     	width: 100%;
+     	padding: 50px;
+     	min-height: 400px;
+     	text-align: center;
+
+     }
+
+     .donations{
+     	padding: 50px;
+     	
+
+     }
+     .donations .container
+     {
+
+     	justify-content: center;
+     	margin-top: 40px;
+
+     }
+     .donations .container .donate{
+     	padding-right: 50px;
+     	margin-top: 20px;
+     }
+     
+     .end{
+     	padding: 20px 50px;
+     	flex-direction: column-reverse;
+     	text-align: center;
+     	
+     }
+
+      .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 { 
+    padding-top: 10px;
+    font-size: 5vw; 
+  }
+  .navbar-brand p { 
+    font-size: .6em;
+    margin-top: 12px;
+  }
+  .navbar-brand p img { 
+    height: 20px;
+  }
+
+  #collapsable-nav a {
+    font-size: 1.2em;
+  }
+  #collapsable-nav a span {
+    font-size: 1em;
+    margin-right: 5px;
+
+
+
+
+
+
+ }
+
+
+
+
+
+
+
+
+
+
 
 
 
