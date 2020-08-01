@@ -8,7 +8,6 @@
 html
 {
 	scroll-behavior: smooth;
-
 }
 html,body{
 	width: 100%;
@@ -17,10 +16,6 @@ html,body{
 	padding: 0px;
 	overflow-x: hidden;
 }
-body{
-	overflow: scroll;
-	-webkit-overflow-scrolling: touch;}
-
 
 .banner{
 	position: relative;
@@ -348,11 +343,14 @@ section{
 {
 	font-family: 'Gentium Basic', serif;
 }
-
-
-
-@media (min-width:768px) and (max-width: 991px)
+.margin_zero
 {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+
+@media (min-width: 768px) and (max-width: 991px){
 
 	.banner
 	{
@@ -431,7 +429,8 @@ section{
 }
 
 
-@media (max-width: 767px)
+
+@media (max-width: 768px)
 {.banner
 	{
 		padding: 50px;
@@ -522,22 +521,9 @@ section{
   }
   #collapsable-nav a span {
     font-size: 1em;
-	  margin-right: 5px;}
-	
-	
-	#header-nav{
-		margin:0;
-		padding:0;}
-	
-	.rit
-	{
-		box-sizing:border-box;
-		margin:0;
-		padding:0;}
-	.container{
-		margin:0;
-		padding:0;
-		box-sizing:border-box;}
+    margin-right: 5px;}
+
+
 
 
 
@@ -545,14 +531,6 @@ section{
 
 
  }
-
-
-
-
-
-
-
-
 
 
 
