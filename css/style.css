@@ -10,9 +10,11 @@ html
 	scroll-behavior: smooth;
 
 }
-body{
-	overflow: scroll;
-	-webkit-overflow-scrolling: touch;}
+html,body
+{       width:100%;
+	margin:0px;
+	padding:0px;
+	overflow-x:hidden;}
 
 
 .banner{
@@ -287,6 +289,7 @@ body{
 #header-nav{
 	background-color: #3B1A5B;
 	margin-bottom: 0px;
+	border:0px;
 }
 
 section{
